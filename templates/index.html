@@ -5,7 +5,7 @@
         <li>
             {{node.name}}
             {% if not node.is_leaf_node %}
-                <ul class="children">
+                <ul>
                     {{ children }}
                 </ul>
             {% endif %}
